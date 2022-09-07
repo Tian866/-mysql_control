@@ -63,7 +63,7 @@ def main():
     loglines = follow(f)
     for line in loglines:
         print(line)
-
+    f.close()
 
 if __name__ == '__main__':
     main()
